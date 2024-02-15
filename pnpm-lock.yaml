@@ -38,9 +38,9 @@ dependencies:
   cookie-parser:
     specifier: ^1.4.6
     version: 1.4.6
-  data-fns:
-    specifier: ^1.1.0
-    version: 1.1.0
+  date-fns:
+    specifier: ^3.3.1
+    version: 3.3.1
   passport:
     specifier: ^0.7.0
     version: 0.7.0
@@ -2375,11 +2375,8 @@ packages:
       which: 2.0.2
     dev: true
 
-  /data-fns@1.1.0:
-    resolution: {integrity: sha512-/rJzdbnuY3DVgzqsfEfc+tJLuAKYaHzkUxSMRIU3dxKFeWGD/MGhrgAfuwSOmgfJ8enygztp9DeuvoSxauppIg==}
-    engines: {node: '>=10'}
-    dependencies:
-      unit-fns: 0.1.9
+  /date-fns@3.3.1:
+    resolution: {integrity: sha512-y8e109LYGgoQDveiEBD3DYXKba1jWf5BA8YU1FL5Tvm0BTdEfy54WLCwnuYWZNnzzvALy/QQ4Hov+Q9RVRv+Zw==}
     dev: false
 
   /debug@2.6.9:
@@ -5374,11 +5371,6 @@ packages:
 
   /undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
-
-  /unit-fns@0.1.9:
-    resolution: {integrity: sha512-bxceIkc7n2icQmgQx8u3vX98ZBIcpL2YJDKIsWDFK7ZX1TTuLvtNWVNd9/oARCDHd7QQRzwc+zxabO0HSK8X0w==}
-    engines: {node: '>=10'}
-    dev: false
 
   /universalify@2.0.1:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}

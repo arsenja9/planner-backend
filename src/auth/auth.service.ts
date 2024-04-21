@@ -80,6 +80,7 @@ export class AuthService {
 			httpOnly: true,
 			domain: 'localhost',
 			expires: expiresIn,
+			secure: true,
 			sameSite: 'none'
 		})
 	}
